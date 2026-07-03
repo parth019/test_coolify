@@ -147,7 +147,7 @@ export default function Home() {
         />
 
         <button onClick={editingNote ? updateNote : createNote}>
-          {editingNote ? "💾 Save" : "➕ Create"}
+          {editingNote ? " Save" : " Create"}
         </button>
 
         {editingNote && (
@@ -158,7 +158,7 @@ export default function Home() {
             }}
             style={{ marginLeft: "8px" }}
           >
-            ❌ Cancel
+            Cancel
           </button>
         )}
       </div>
@@ -191,7 +191,7 @@ export default function Home() {
             }}
             style={{ marginRight: "8px" }}
           >
-            ✏️ Edit
+            Edit
           </button>
 
           <button onClick={() => deleteNote(note.id)}>🗑️ Delete</button>
