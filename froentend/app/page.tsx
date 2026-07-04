@@ -101,7 +101,7 @@ export default function Home() {
   return (
     <div style={{ padding: "40px", maxWidth: "700px" }}>
       <h1>Notes App</h1>
-      <h1>version 2 .</h1>
+      <h1>version 2 ..</h1>
 
       <div
         style={{
